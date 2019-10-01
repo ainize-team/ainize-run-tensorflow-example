@@ -6,7 +6,7 @@
 
 Try it out with a "Resnet model" TensorFlow serving application:
 
-Run on [![Run on Ainize](assets/ainize-logo.png)](http://viewer.ainize.ai:8080/?url=https://github.com/laeyoung/ainize-run-example/blob/master/swagger/tf-resnet-openapi_v0.1.1.yaml)
+Run on [![Run on Ainize](assets/ainize-logo.png)](https://ainize-dev.github.io/ainize-run-example/)
 
 
 ## How to run example project
