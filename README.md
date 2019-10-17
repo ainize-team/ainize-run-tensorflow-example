@@ -1,4 +1,4 @@
-# ainize-run-example
+# ainize-run-tensorflow-example
 
 ## Test __Run on Ainize__
 
@@ -6,7 +6,7 @@
 
 Try it out with a "Resnet model" TensorFlow serving application:
 
-Run on [![Run on Ainize](assets/ainize-logo.png)](https://ainize-dev.github.io/ainize-run-example/)
+Run on [![Run on Ainize](assets/ainize-logo.png)](https://ainize-team.github.io/ainize-run-tensorflow-example/)
 
 
 ## How to run example project
@@ -16,7 +16,7 @@ Run on [![Run on Ainize](assets/ainize-logo.png)](https://ainize-dev.github.io/a
 ```sh-session
 # 1.Set docker hub id and ainize dev key
 $ DOCKER_HUB_ID=your-docker-hub-id
-$ AINIZE_DEV_KEY=your-ainize-dev_key
+$ AINIZE_DEV_KEY=your-ainize-dev-key
 
 # 2.Build docker image
 $ docker build -t tensorflow-serving-resnet tensorflow-serving-resnet/
