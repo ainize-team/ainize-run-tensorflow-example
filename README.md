@@ -20,7 +20,7 @@ $ docker build -t tensorflow-serving-resnet tensorflow-serving-resnet/
 # 2. Push docker image to your docker hub registry
 $ docker push ${DOCKER_HUB_ID}/tensorflow-serving-resnet
 
-# 3.Depoly on <a href="https://ainize-run-web.herokuapp.com/">Ainize</a>
+# 3.Depoly on [`Ainize`](https://ainize-run-web.herokuapp.com/)
 ```
 
 
