@@ -3,7 +3,7 @@ info:
   title: TensorFlow Resnet API by Ainize
   version: 0.1.1
 servers:
-  - url: http://34.85.117.64:8501/v1/models
+  - url: https://endpoint-dev.ainize.ai/hyunhyerim_3/ainize-run-tensorflow-example/
 paths:
   /resnet:
     get:
