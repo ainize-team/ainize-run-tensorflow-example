@@ -25,5 +25,4 @@ $ docker push ${DOCKER_HUB_ID}/tensorflow-serving-resnet
 
 3.Depoly on <a href="https://ainize-run-web.herokuapp.com/">Ainize</a>
 
-
-
+* <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">Checkout ImageNet 1000 class</a>
