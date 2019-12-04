@@ -3,7 +3,7 @@ info:
   title: TensorFlow Resnet API by Ainize
   version: 0.1.1
 servers:
-  - url: https://endpoint-dev.ainize.ai/hyunhyerim_3/tensorflow-serving-resnet/v1/models
+  - url: https://endpoint.ainize.ai/hyunhyerim/tensorflow-serving-resnet/v1/models
 paths:
   /resnet:
     get:
