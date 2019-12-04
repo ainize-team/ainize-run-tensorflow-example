@@ -6,8 +6,7 @@
 
 Try it out with a "Resnet model" TensorFlow serving application:
 
-[![Run on Ainize](https://ainize-run-web.herokuapp.com/static/images/run_on_ainize_button.png)](https://ainize-dev.web.app/redirect?git_repo=github.com/ainize-team/ainize-run-tensorflow-example)
-
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize.web.app/redirect?git_repo=github.com/ainize-team/ainize-run-tensorflow-example)
 
 ## How to run example project
 
