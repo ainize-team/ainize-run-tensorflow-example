@@ -3,14 +3,14 @@ info:
   title: TensorFlow Resnet API by Ainize
   version: 0.1.1
 servers:
-  - url: https://endpoint.ainize.ai/hyunhyerim/tensorflow-serving-resnet/v1/models
+  - url: https://master-ainize-run-tensorflow-example-ainize-team.endpoint.ainize.ai
 paths:
-  /resnet:
+  /v1/models/resnet:
     get:
       operationId: status
       summary: Get status
       responses:
-        '200':
+        "200":
           description: 200 response
           content:
             application/json:
@@ -18,19 +18,19 @@ paths:
                 pooh:
                   value:
                     model_version_status:
-                      - version: '1538687457'
-                        state: 'AVAILABLE'
+                      - version: "1538687457"
+                        state: "AVAILABLE"
                         status:
-                          error_code: 'OK'
-                          error_message: ''
-  /resnet/metadata:
+                          error_code: "OK"
+                          error_message: ""
+  /v1/models/resnet/metadata:
     get:
       operationId: metadata
       summary: Get model's metadat
       responses:
-        '200':
+        "200":
           description: 200 response
-  /resnet:predict:
+  /v1/models/resnet:predict:
     post:
       operationId: predict
       summary: Predict object class of given image
@@ -50,7 +50,7 @@ paths:
                         type: string
                         format: byte # base64-encoded image file contents
       responses:
-        '200':
+        "200":
           description: 200 response
           content:
             application/json:
@@ -60,6 +60,5 @@ paths:
                     predictions:
                       - classes: 208
                         probabilities:
-                        - '1.32371497e-06'
-                        - '9.01561236e-07'
-
+                          - "1.32371497e-06"
+                          - "9.01561236e-07"
